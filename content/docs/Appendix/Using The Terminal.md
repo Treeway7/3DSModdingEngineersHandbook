@@ -11,13 +11,14 @@ weight: 1
 
 # Using The Terminal
 
-There are many different tools available at your disposal, some of which only have a command-line interface. You'll need to use a terminal to run certain programs.
+You'll need to use a terminal to run certain programs which don't have a graphical interface.
 
 {{< hint info >}}
 
-A computer terminal lets you run apps with a *command-line interface* (CLI), as opposed to a graphical interface (GUI). Terminals let you use your computer by writing commands into a text box.
+A computer terminal lets you use your computer with a *command-line interface* (CLI) by writing commands into a text box,
+as opposed to the usual graphical user interface (GUI), which generally relies on a mouse.
 
-Many development tools are *command-line only,* and don't have a graphical interface (or GUI).
+Many development tools offer only a CLI and don't have a GUI.
 
 {{< /hint >}}
 
@@ -27,9 +28,9 @@ Here are a couple of essential commands you'll need on any OS.
 
 {{< hint warning >}}
 
-Some of these commands are different in Windows Command Prompt.
+On Windows, some of these commands are different in the Command Prompt. Make sure to use Powershell instead.
 
-On Windows Powershell, these commands are *aliases* that correspond to longer Powershell commands, such as `Get-ChildItem` and `Set-Location`.
+In Windows Powershell, these commands are *aliases* that correspond to longer Powershell commands, such as `Get-ChildItem` and `Set-Location`.
 
 {{< /hint >}}
 
@@ -53,6 +54,10 @@ You can also type a directory after `ls` to list that directory's files:
 lunatic-princess.mp3   project-stuff.txt   'Super Secret Stash'
 ```
 
+{{<hint info>}}
+Filenames or directories with spaces in them must be written out with singlequotes or doublequotes around them, ie. `'Super Secret Stash'`.
+{{</hint>}}
+
 -----------
 
 ### `cd`
@@ -68,11 +73,12 @@ Change directories.
 
 ## Folder Paths
 
-These are important for navigating through files and executing programs.
+These are used in the terminal, which are important for navigating through files and executing programs.
+They act kind of like links which lead to other folders.
 
 ### `..`
 
-This is one directory up from your current path.
+The two-dot ellipsis is short for one directory up from your current path.
 
 ```
 /home/MyComputer/Desktop> cd ..
@@ -84,7 +90,7 @@ This is one directory up from your current path.
 
 ### `~`
 
-This is a terminal shortcut that leads to your home directory.
+This is a file path shortcut that leads to your home directory.
 
 ```
 /> cd ~
@@ -95,7 +101,7 @@ This is a terminal shortcut that leads to your home directory.
 
 ### `.`
 
-This is the current directory's path. You can run apps located in the current folder with `./`
+This is the current directory's path. You can run apps located in the current directory with `./`
 
 ```
 /home/MyComputer> ls .
@@ -128,7 +134,7 @@ Move, copy and delete files.
 
 Moves a file to a different directory, and/or renames a file in the current directory.
 
-In this example, we move the file and rename it at the same time:
+In this example, we move the file `funny-waifu.png` to the `Pictures/` directory and rename it to `super-serious-person.png` at the same time:
 
 ```
 /home/MyComputer> ls Desktop/
@@ -167,7 +173,7 @@ Also, `-f` lets you *force delete,* bypassing any delete confirmations and file 
 /home/MyComputer/Desktop> ls
 'Deep Rock Galactic.lnk'   'Fallout New Vegas.lnk'   lunatic-princess.mp3
 project-stuff.txt   'Super Secret Stash'
-/home/MyComputer/Desktop> rm "lunatic-princess.mp3"
+/home/MyComputer/Desktop> rm lunatic-princess.mp3
 /home/MyComputer/Desktop> rm "Super Secret Stash" -rf
 /home/MyComputer/Desktop> ls
 'Deep Rock Galactic.lnk'   'Fallout New Vegas.lnk'   project-stuff.txt
@@ -177,4 +183,4 @@ project-stuff.txt   'Super Secret Stash'
 
 ## Conclusion
 
-There are many other built-in commands. Don't forget to Google if you need more information!
+There are many other built-in commands. Don't forget to use Google if you need more information!
