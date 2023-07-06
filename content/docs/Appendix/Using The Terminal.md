@@ -14,12 +14,10 @@ weight: 1
 You'll need to use a terminal to run certain programs which don't have a graphical interface.
 
 {{<hint info>}}
-
 A computer terminal lets you use your computer with a *command-line interface* (CLI) by writing commands into a text box,
 as opposed to the usual graphical user interface (GUI), which generally relies on a mouse.
 
 Many development tools offer only a CLI and don't have a GUI.
-
 {{</hint>}}
 
 ## Essential Commands
@@ -27,11 +25,9 @@ Many development tools offer only a CLI and don't have a GUI.
 Here are a couple of essential commands you'll need on any OS.
 
 {{<hint warning>}}
-
 On Windows, some of these commands are different in the Command Prompt. Make sure to use Powershell instead.
 
 In Windows Powershell, these commands are *aliases* that correspond to longer Powershell commands, such as `Get-ChildItem` and `Set-Location`.
-
 {{</hint>}}
 
 
@@ -118,10 +114,8 @@ Options:
 ```
 
 {{<hint info>}}
-
 Most applications have a `--help` menu.
 If you need instructions, try adding this flag when you're running a program!
-
 {{</hint>}}
 
 -----------
@@ -158,11 +152,9 @@ Works just like `mv` but instead copies a file from one place to another. See ab
 Removes a file from your drive.
 
 {{<hint danger>}}
-
 **Removing files this way permanently deletes them, and is IRREVERSIBLE!**
 
 Be very careful when using this command.
-
 {{</hint>}}
 
 Add the `-r` command line option to delete entire directories.
