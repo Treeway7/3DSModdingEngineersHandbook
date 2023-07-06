@@ -15,4 +15,4 @@ This section describes a broad set of tools which you will need to mod any 3DS g
 
 Pick a page to get started.
 
-![Maple Treeway](/mario.jpg)
+![Maple Treeway](https://github.com/Treeway7/3DSModdingEngineersHandbook/blob/master/static/mario.jpg?raw=true)
