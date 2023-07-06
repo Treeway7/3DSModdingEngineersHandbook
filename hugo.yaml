@@ -1,9 +1,9 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = "3DS Modding: Engineer's Handbook"
-theme = 'hugo-book'
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: "3DS Modding: Engineer's Handbook"
+theme: 'hugo-book'
 
-[params]
+Params:
 # (Optional, default light) Sets color theme: light, dark or auto.
 # Theme 'auto' switches between dark and light modes based on browser/os preferences
-BookTheme = 'dark'
+    BookTheme: 'dark'
