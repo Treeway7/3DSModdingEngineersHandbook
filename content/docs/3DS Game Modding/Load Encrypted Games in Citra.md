@@ -26,9 +26,9 @@ Citra's wiki describes the process of doing so.
 
 ## Decrypting Individual ROM Files
 
-{{< hint info >}}
+{{<hint info>}}
 This method will only work on Windows 64-bit, since the bundled decryption software is built for Windows only.
-{{< /hint >}}
+{{</hint>}}
 
 1. Download [Batch CIA Decryptor](https://gbatemp.net/download/batch-cia-3ds-decryptor.35098/download?version=35152).
 2. Extract the downloaded folder and move it to a safe location.
